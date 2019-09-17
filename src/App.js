@@ -38,7 +38,7 @@ class BooksApp extends React.Component {
       this.setState({booklist:booklist})
     }
     else{
-      let booklist = this.state.booklist
+      let booklist = Object.assign({},this.state.booklist)
       if(!booklist[book.id])
         booklist[book.id]=JSON.parse(JSON.stringify(book))
       booklist[book.id].shelf=newShelf
