@@ -1,3 +1,10 @@
+# Description
+
+A simple web application created with react and a google API. The application represents a bookcase, in which there are three bookshelves: currently reading, read, and want to read. The user can freely add a book to their bookcase or modify the status of a book.
+
+# Please Read First
+Below consist of the README.md of the starter template.  I will be leaving this here for reference.  
+
 # MyReads Project
 
 This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
